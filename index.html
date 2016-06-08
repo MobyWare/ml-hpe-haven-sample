@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<script type="text/javascript" src="./async.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400italic,400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<script src="./jqcloud.min.js"></script>
+<script src="./jquery.colorbox-min.js"></script>
+<link rel="stylesheet" href="./jqcloud.min.css">
+<link rel="stylesheet" type="text/css" href="./main.css"></style>
+</html>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a href="/" class="navbar-brand"><b>WEBSITE</b> GIST</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="https://havenondemand.com" target="_blank">Powered by&nbsp;       <img alt="Brand" src="./hod-hex-black.png" height="20"></a></li>
+    </ul>
+  </div>
+</nav>
+
+<section id='content'>
+
+  <div class="row">
+    <div class="col-xs-10 col-xs-offset-1">
+      <div class="input-group" id="url-form">
+        <input type="text" class="form-control" name="url" placeholder="Enter a URL of a website or article to get a summary of its main concepts and sentiments. The larger the word appears below, the more pertinent the topic." id="url" required>
+        <span class="input-group-btn">
+          <button type="submit" class="btn" id="submit" onclick="process()">Analyze</button>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <br />
+
+  <div class="row">
+    <div class="col-xs-10 col-xs-offset-1 well">
+      <p class="title">
+        Concepts
+      </p>
+      <div id="concepts-wordcloud"><img src="./loading.gif" height="200" id="loading-concepts" style="display: none"></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-10 col-xs-offset-1 well">
+      <p class="title">
+        Positive Sentiments
+      </p>
+      <div id="positive-sentiments-wordcloud"><img src="./loading.gif" height="200" id="loading-positive-sentiments" style="display: none"></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-10 col-xs-offset-1 well">
+      <p class="title">
+        Negative Sentiments
+      </p>
+      <div id="negative-sentiments-wordcloud"><img src="./loading.gif" height="200" id="loading-negative-sentiments" style="display: none"></div>
+    </div>
+  </div>
+
+</section>
+
+<script src="./app.js"></script>

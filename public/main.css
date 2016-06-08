@@ -1,0 +1,106 @@
+#concepts-wordcloud, #positive-sentiments-wordcloud, #negative-sentiments-wordcloud  {
+  height: 400px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.popover{
+    max-width: 70%; /* Max Width of the popover (depending on the container!) */
+    font-family: Source Sans Pro,Arial,sans-serif;
+}
+
+body {
+  font-family: Source Sans Pro,Arial,sans-serif;
+  background-color: #425563;
+  color: white;
+  /*padding-left: 12px;
+  padding-right: 12px;*/
+}
+
+.btn {
+  background-color: #01a982;
+}
+
+input, select, textarea {
+    color: black;
+}
+
+#content {
+  padding-top: 10px;
+}
+
+.navbar-brand {
+  font-family: 'Open Sans', sans-serif;
+}
+.navbar-default .navbar-brand {
+    color: #745C7A;
+}
+
+/* Navbar stuff*/
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #000;  /*Sets the text hover color on navbar*/
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >
+   a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #01a982; /*BACKGROUND color for active*/
+  background-color: #01a982;
+}
+
+.navbar-default {
+  background-color: #01a982;
+  border-color: #030033;
+}
+
+.dropdown-menu > li > a:hover,
+ .dropdown-menu > li > a:focus {
+  color: #262626;
+ text-decoration: none;
+background-color: #66CCFF;  /*change color of links in drop down here*/
+ }
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: silver; /*Change rollover cell color here*/
+}
+
+
+.navbar-default .navbar-nav > li > a {
+ color: #01a982; /*Change active text color here*/
+  }
+/* / Navbar stuff*/
+
+.navbar-default {
+    background-color: black;
+    border-color: #E7E7E7;
+}
+
+#colorbox {
+    border: 2px #1AA982;
+    border-radius: 2px;
+    box-shadow: 0 0 2px #614767;
+  }
+
+#cboxClose {
+  background-color: #ff8d6d;
+}
+
+#loading {
+  /*justify-content: center;*/
+  vertical-align: middle;
+}
+
+div.jqcloud {
+  font-family: Source Sans Pro,Arial,sans-serif;
+}
+
+p.summary {
+  font-size: 20px;
+}
+
+p.title {
+  font-size: 16px;
+   color: #ff8d6d;
+
+}
