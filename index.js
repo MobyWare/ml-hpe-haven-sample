@@ -7,7 +7,7 @@ app.use(express.static(path.join(__dirname, 'public')))
 
 //Reference haven api
 var havenondemand = require('havenondemand')
-var client = new havenondemand.HODClient('3ef4a08d-c36a-4191-9a72-1ef761d80ea3')
+var client = new havenondemand.HODClient('<your API>')
 
 var port = process.env. PORT || 5000
 
