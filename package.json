@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "~4.14.0",
-    "havenondemand": "~1.2.2"
+    "havenondemand": "~1.2.2",
+    "dotenv": "~2.0.0"
   }
 }

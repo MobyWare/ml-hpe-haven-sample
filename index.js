@@ -1,4 +1,4 @@
-require('dotenv').load() //seems this is needed to load environment variables
+//require('dotenv').load() //seems this is needed to load environment variables
 
 var path = require('path')
 var express = require('express')
