@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.13.4",
-    "havenondemand": "^1.2.0"
+    "express": "~4.14.0",
+    "havenondemand": "~1.2.2"
   }
 }
